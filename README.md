@@ -8,9 +8,6 @@
 git config --global user.name "ahyeon"
 ```
 
-```
-git config --global user.name "ahyeon"
-```
 # gitHub 가입시 입력한 이메일과 동일해야 한다
 ```
 git config --global user.email "koinohibi@gmail.com"
