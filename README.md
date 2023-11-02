@@ -47,4 +47,26 @@ git config --list
    git commit -m "내가 적고싶은 메시지"
    ```
 # 메시지에는 한글이 가능함
+# -메세지의 준말
+
+4. gitHub repository랑 내 로컬 프로젝트랑 연결 (깃업에 프로젝트를 올릴 repository를 먼저 만들어야 한다)
+# 아래 주소는 깃업에서 만든 repository에서 복사해서 가져와야 한다(repository를 만들때 read.me 선택하지 말기)
+
+   ```
+   git remote add origin https://github.com/sonahyeonn/webstandard.git
+   ```
+
+5. 잘 연결 되었는지 확인 (필수아님)
+
+   ```
+   git remote -v
+   ```
+
+6. Github에 자료 올리기
+
+   ```
+   git push origin master
+   ```
+   
+# 여기까지 하면 Github의 repository에 자료가 올라가 있다
    
